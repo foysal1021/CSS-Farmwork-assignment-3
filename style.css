@@ -1,17 +1,26 @@
 .carousel-item-content{
-    background-color: rgba(0, 0, 0, 0.795);
+    background-color: rgba(0, 0, 0, 0.555);
 }
 .carousel-item-content h1 {
     font-size: 65px;
 }
 @media screen and (max-width:576px) {
-    .carousel-item-img {
-        height: 500px;
-    }
-    .carousel-item-content h1 {
-        font-size: 30px;
-    }
-    .carousel-item-content p{
-        width: 275px !important;
-    }
+/*header is start here*/
+.carousel-item-img {
+    height: 400px;
+}
+.carousel-item-content h1 {
+    font-size: 40px;
+}
+.carousel-item-content p{
+    width: 350px !important;
+
+}
+.carousel-control-prev-icon{
+    display: none;
+}
+.carousel-control-next-icon{
+    display: none;
+}
+/*header is end here*/
 }
