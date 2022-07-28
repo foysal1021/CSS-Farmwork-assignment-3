@@ -1,11 +1,19 @@
+/*carousel is start here*/
 .carousel-item-content{
     background-color: rgba(0, 0, 0, 0.555);
 }
 .carousel-item-content h1 {
     font-size: 65px;
-}
-@media screen and (max-width:576px) {
-/*header is start here*/
+}/*carousel is end here*/
+
+
+
+
+/*===================
+     small divice
+=====================*/
+@media screen and (max-width:700px) {
+/*carousel is start here*/
 .carousel-item-img {
     height: 400px;
 }
@@ -21,6 +29,33 @@
 }
 .carousel-control-next-icon{
     display: none;
+}/*carousel is end here*/
+
+/* Courses is start here */
+.see-more{
+    display: none;
 }
-/*header is end here*/
+/* Courses is end here */
 }
+/*===================
+     medium divice
+=====================*/
+@media screen and (min-width:701px) and (max-width:991px) {
+    .see-more{
+        display: none;
+    }
+    /* .join-now .row{
+        text-align: center;
+    } */
+}
+
+/*===================
+     large divice
+=====================*/
+@media screen and (min-width:991px) {
+    .view-all{
+        display: none;
+    }
+}
+
+
