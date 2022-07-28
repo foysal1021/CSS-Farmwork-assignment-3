@@ -36,6 +36,8 @@
     display: none;
 }
 /* Courses is end here */
+
+/*jon now is start*/
 .join-now-btn{
     display: block !important;
     text-align: center;
@@ -43,7 +45,13 @@
 .row{
     text-align: center;
  }
+/*jon now is start*/
 
+/*companies is star*/
+ .companies{
+    display: none !important;
+ }
+/*companies is end*/
 }
 
 
