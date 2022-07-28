@@ -1,0 +1,17 @@
+.carousel-item-content{
+    background-color: rgba(0, 0, 0, 0.795);
+}
+.carousel-item-content h1 {
+    font-size: 65px;
+}
+@media screen and (max-width:576px) {
+    .carousel-item-img {
+        height: 500px;
+    }
+    .carousel-item-content h1 {
+        font-size: 30px;
+    }
+    .carousel-item-content p{
+        width: 275px !important;
+    }
+}
