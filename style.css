@@ -36,7 +36,20 @@
     display: none;
 }
 /* Courses is end here */
+.join-now-btn{
+    display: block !important;
+    text-align: center;
 }
+.row{
+    text-align: center;
+ }
+
+}
+
+
+
+
+
 /*===================
      medium divice
 =====================*/
@@ -44,10 +57,19 @@
     .see-more{
         display: none;
     }
-    /* .join-now .row{
+     /*join now start*/
+     .row{
         text-align: center;
-    } */
+     }
+     .join-now-btn{
+        display: block !important;
+        text-align: center;
+    }
+     /*join now end*/
+
 }
+
+
 
 /*===================
      large divice
