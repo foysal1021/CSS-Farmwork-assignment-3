@@ -5,7 +5,9 @@
 .carousel-item-content h1 {
     font-size: 65px;
 }/*carousel is end here*/
-
+img.img-fluid.img-size {
+    height: 230px;
+}
 
 
 
@@ -53,6 +55,9 @@
     display: none !important;
  }
 /*companies is end*/
+}
+.img-size{
+    height: 100%;
 }
 
 
